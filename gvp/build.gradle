@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
+//apply plugin: 'com.novoda.bintray-release'
 
 allprojects {
     repositories {
@@ -41,11 +41,11 @@ dependencies {
     implementation 'com.android.support:recyclerview-v7:27.1.0'
 }
 
-publish {
-    userOrg = 'yhyzgn'
-    groupId = 'com.yhy'
-    artifactId = 'gvp'
-    publishVersion = '1.1.1'
-    desc = 'A component that ViewPager contains some RecyclerView, you can custom the Attributes what you need.'
-    website = 'https://github.com/yhyzgn/GridViewPager'
-}
+//publish {
+//    userOrg = 'yhyzgn'
+//    groupId = 'com.yhy'
+//    artifactId = 'gvp'
+//    publishVersion = '1.1.1'
+//    desc = 'A component that ViewPager contains some RecyclerView, you can custom the Attributes what you need.'
+//    website = 'https://github.com/yhyzgn/GridViewPager'
+//}
