@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GridViewPager">
+        <!--每页显示数量，默认为：4-->
+        <attr name="page_size" format="integer"/>
+        <!--每页显示列数，默认为：4-->
+        <attr name="num_columns" format="integer"/>
+    </declare-styleable>
+</resources>
